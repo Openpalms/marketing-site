@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 1440px;
+  height: 76px;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 32px;
+  width: 93px;
+  margin-inline: 120px 41px;
+}
+
+.wrapper {
+  min-width: 450px;
+  height: 27px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 424px;
+}
+
+.link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+}
+.btn1 {
+  font-family: 'Oswald';
+
+  padding: 14px 40px;
+  background-color: #0057ff;
+  border-radius: 30px;
+  border: none;
+  min-width: 193px;
+  height: 52px;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+/* main section */
+.main-section {
+  display: flex;
+}
+.wrapper-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading-main {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 66px;
+  /* or 118% */
+
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.description-main {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  color: #000000;
+}
+.review {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  text-transform: uppercase;
+
+  color: #000000;
+}
