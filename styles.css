@@ -23,7 +23,7 @@ p {
   padding: 0;
 }
 .header {
-  width: 1440px;
+  min-width: 1440px;
   height: 76px;
   background-color: whitesmoke;
   display: flex;
@@ -136,10 +136,39 @@ p {
   height: 80px;
 }
 .image-main {
-  min-width: 700px;
-  min-height: 750px;
-  /* margin-right: 144px; */
+  max-width: 700px;
+  max-height: 750px;
+
   position: absolute;
-  top: 10%;
+  top: 9%;
   right: 10%;
+}
+.btn-main-review {
+  background: #ffa332;
+  border-radius: 30px;
+  max-width: 176px;
+  height: 52px;
+  border: none;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.image-left-main {
+  width: 94px;
+  height: 104px;
+  position: absolute;
+  transform: rotate(180deg);
+  top: 42%;
+  right: 47%;
+}
+.image-right-main {
+  position: absolute;
+  top: 70%;
+  right: 1%;
 }
